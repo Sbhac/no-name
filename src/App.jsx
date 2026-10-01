@@ -45,7 +45,7 @@ function App() {
       <section className="hero-panel glass-panel">
         <div className="hero-copy">
           <p className="eyebrow">ACCOUNTS & FINANCE EXECUTIVE · MBA FINANCIAL MANAGEMENT</p>
-          <h1>Swarup Namdev<br /><span>Bandagale.</span></h1>
+          <h1><span>Swarup</span><span>Namdev</span><span>Bandagale</span></h1>
           <p className="hero-description">
             Accounts Executive with hands-on manufacturing experience in billing,
             accounting records, taxation, payroll, and financial analysis. MBA in
