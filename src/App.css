@@ -1053,6 +1053,20 @@ a {
   font-size: 7px;
 }
 
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact-actions .button-primary,
+.contact-actions .button-secondary {
+  min-height: 31px;
+  padding: 0 12px;
+  font-size: 7px;
+}
+
 .contact-details {
   display: grid;
   gap: 10px;

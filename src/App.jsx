@@ -123,7 +123,7 @@ function App() {
       </section>
 
       <section className="contact-panel glass-panel" id="contact">
-        <div className="contact-intro"><p className="eyebrow">A GOOD PLACE TO START</p><h2>Let’s make<br /><span>work matter.</span></h2><p>Have an opportunity or a finance role in mind? I’d be glad to connect.</p><a className="button-primary" href="mailto:swarupbandagale6@email.com">GET IN TOUCH <span>↗</span></a></div>
+        <div className="contact-intro"><p className="eyebrow">A GOOD PLACE TO START</p><h2>Let’s make<br /><span>work matter.</span></h2><p>Have an opportunity or a finance role in mind? I’d be glad to connect.</p><div className="contact-actions"><a className="button-primary" href="mailto:swarupbandagale6@email.com">EMAIL ME <span>↗</span></a><a className="button-secondary" href="https://linkedin.com/in/swarupbandagale-264a18190" target="_blank" rel="noreferrer">LINKEDIN <span>↗</span></a></div></div>
         <div className="contact-details"><p className="eyebrow">CONTACT DETAILS</p><a href="mailto:swarupbandagale6@email.com"><span>✉</span> swarupbandagale6@email.com</a><a href="tel:+917798208652"><span>⌕</span> +91 77982 08652</a><a href="https://linkedin.com/in/swarupbandagale-264a18190" target="_blank" rel="noreferrer"><span>↗</span> linkedin.com/in/swarupbandagale-264a18190</a><p className="contact-location">⌖ &nbsp; Wai, Dist. Satara, Maharashtra, India</p><p className="language-line">LANGUAGES <b>English · Hindi · Marathi</b></p></div>
         <div className="contact-glass-art" aria-hidden="true"><div className="glass-orb"><span>SB</span></div><p>ACCURACY<br />IN EVERY DETAIL</p></div>
       </section>
