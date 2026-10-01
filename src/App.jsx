@@ -85,12 +85,12 @@ function App() {
         </div>
         <div className="project-grid">
           <a className="study-card study-risk" href="/swarup%20research%20project.pdf" target="_blank" rel="noreferrer">
-            <div className="study-art risk-art"><span className="art-label">FINANCIAL BEHAVIOUR / PUNE</span><div className="chart-grid"><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /></div><div className="chart-line" /><span className="chart-caption">RISK<br />& RETURN</span><span className="study-number">01</span></div>
+            <div className="study-art"><img className="study-preview" src="/research-project-cover.png" alt="First page of the financial risk tolerance research project PDF" /><span className="study-number">01</span></div>
             <div className="study-info"><div><h3>Financial Risk & Investment Decisions</h3><p>Questionnaire-based study of investor risk appetite across FDs, SIPs, and equity, using Cronbach's Alpha, ANOVA, regression, and chi-square analysis.</p></div><span className="study-arrow">↗</span></div>
             <span className="tag">MBA RESEARCH</span>
           </a>
           <a className="study-card study-bank" href="/swarup%20OJT%20project.pdf" target="_blank" rel="noreferrer">
-            <div className="study-art bank-art"><span className="art-label">BANKING / ON-THE-JOB TRAINING</span><div className="ledger-sheet"><span>LOANS & ADVANCES</span><i /><i /><i /><i /><i /><b>WAI URBAN CO-OP BANK</b></div><span className="study-number">02</span></div>
+            <div className="study-art"><img className="study-preview" src="/ojt-project-cover.png" alt="First page of the loans and advances OJT project PDF" /><span className="study-number">02</span></div>
             <div className="study-info"><div><h3>Loans & Advances</h3><p>Reviewed loan portfolio, sanctioning, documentation, credit appraisal, lending trends, and NPA management at Wai Urban Co-operative Bank.</p></div><span className="study-arrow">↗</span></div>
             <span className="tag">OJT STUDY</span>
           </a>
