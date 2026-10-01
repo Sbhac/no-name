@@ -208,10 +208,20 @@ a {
 .hero-copy h1 {
   font-size: clamp(48px, 6.5vw, 82px);
   line-height: 0.96;
+  text-transform: uppercase;
+  color: transparent;
+  background-image: linear-gradient(108deg, #34495d 0%, #e9f2f7 8%, #657b90 18%, #fcfeff 28%, #455d73 38%, #d2e0e8 48%, #50677e 58%, #fbfdff 68%, #687f94 78%, #e4eef3 89%, #34495d 100%);
+  background-size: 230% 100%;
+  background-position: 0% 50%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.65px rgba(43, 65, 84, 0.72);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.92), 0 2px 1px rgba(37, 58, 77, 0.28), 0 5px 10px rgba(57, 80, 100, 0.16);
+  animation: chrome-glide 7s ease-in-out infinite;
 }
 
 .hero-copy h1 span {
-  color: #7393d6;
   font-weight: 500;
 }
 
@@ -1225,6 +1235,11 @@ a {
   to { opacity: 1; transform: translateY(0); }
 }
 
+@keyframes chrome-glide {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
 @keyframes halo-breathe {
   0%, 100% { transform: scale(0.98); opacity: 0.72; }
   50% { transform: scale(1.03); opacity: 1; }
@@ -1270,7 +1285,7 @@ a {
   .hero-panel { min-height: 555px; grid-template-columns: 1fr; align-content: start; padding: 28px 22px 15px; }
   .hero-copy { padding: 0; }
   .hero-copy .eyebrow { font-size: 7px; }
-  .hero-copy h1 { font-size: clamp(53px, 16vw, 72px); }
+  .hero-copy h1 { font-size: clamp(37px, 12vw, 47px); }
   .hero-description { max-width: 320px; margin-top: 13px; font-size: 10px; }
   .hero-actions { margin-top: 16px; }
   .button-primary, .button-secondary { min-height: 34px; padding: 0 12px; font-size: 7px; }
