@@ -46,7 +46,7 @@ function App() {
       <section className="metrics-panel glass-panel" aria-label="Career highlights">
         <div className="metric"><span className="metric-icon">◇</span><strong>MBA</strong><small>Financial Management</small></div>
         <div className="metric"><span className="metric-icon">▤</span><strong>04</strong><small>Education Levels</small></div>
-        <div className="metric"><span className="metric-icon">97%</span><strong>Grade A</strong><small>Professional Accountant</small></div>
+        <div className="metric"><span className="metric-icon">MBA</span><strong>7.48 / 10</strong><small>CGPA · First Class</small></div>
         <div className="metric"><span className="metric-icon">⌁</span><strong>30 WPM</strong><small>English Typing</small></div>
         <blockquote>“Focused on accuracy, compliance, and efficient financial operations.”</blockquote>
       </section>
