@@ -70,6 +70,23 @@ function App() {
         </div>
       </section>
 
+      <section className="experience-panel glass-panel" id="experience">
+        <div className="experience-heading">
+          <div><p className="eyebrow"><span className="sparkle">✧</span> PROFESSIONAL EXPERIENCE</p><h2>Executive – <span>Accounts</span></h2></div>
+          <span className="experience-period">AUG 2026 — PRESENT</span>
+        </div>
+        <div className="experience-body">
+          <div className="experience-company"><strong>Atharva Foundries Pvt. Ltd.</strong><p>Yash Group of Industries</p><small>MIDC Wai, Satara, Maharashtra</small></div>
+          <ul className="experience-duties">
+            <li>Prepare bills, invoices, and supporting documents for daily accounting transactions.</li>
+            <li>Maintain accurate accounting records and ledgers in line with company procedures.</li>
+            <li>Support statutory documentation for GST, PF, and ESIC.</li>
+            <li>Coordinate with vendors and internal teams to resolve billing discrepancies.</li>
+            <li>Handle accounts and administrative tasks with accuracy and timeliness.</li>
+          </ul>
+        </div>
+      </section>
+
       <section className="details-grid" id="about">
         <article className="detail-panel glass-panel skills-panel" id="skills">
           <p className="eyebrow"><span className="sparkle">✧</span> SKILLS & EXPERTISE</p>
@@ -90,7 +107,6 @@ function App() {
           <div className="education-entry"><span className="entry-year">2021 — 2024</span><h3>Bachelor of Commerce (B.Com)</h3><p>Kisan Veer Mahavidyalaya, Wai · Shivaji University, Kolhapur</p><b>CGPA 6.42 / 10</b></div>
           <div className="education-entry"><span className="entry-year">2021</span><h3>HSC, Commerce</h3><p>Maharashtra State Board · Kolhapur Division</p><b>80.50%</b></div>
           <div className="education-entry"><span className="entry-year">2018</span><h3>Secondary School Certificate (SSC)</h3><p>Maharashtra State Board · Kolhapur Division</p><b>65.40%</b></div>
-          <div className="current-role"><span className="role-dot" /><div><small>AUG 2026 — PRESENT · MIDC WAI, SATARA</small><b>Executive – Accounts</b><p>Atharva Foundries Pvt. Ltd. · Yash Group of Industries</p><p className="role-summary">Bills and invoices · accounting records and ledgers · GST/PF/ESIC records · vendor coordination</p></div></div>
         </article>
 
         <article className="detail-panel glass-panel tools-panel" id="certifications">
