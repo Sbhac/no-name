@@ -139,7 +139,20 @@ function App() {
         <article className="detail-panel glass-panel tools-panel" id="certifications">
           <p className="eyebrow"><span className="sparkle">✧</span> PROFESSIONAL RECORDS</p>
           <h2>CERTIFICATIONS</h2>
-          <div className="tool-orbit"><span className="tool-node node-tally">Tally<br /><small>Prime</small></span><span className="tool-node node-excel">Excel</span><span className="tool-node node-gst">GST</span><span className="tool-core">FINANCE<br />OPS</span></div>
+          <div className="certificate-diagram" aria-label="Certificate diagram">
+            <a className="certificate-node" href="/IMG_1068.JPG.jpeg" target="_blank" rel="noreferrer" aria-label="View Professional Accountant certificate">
+              <span className="certificate-node-title">Professional Accountant</span><span className="certificate-node-action">VIEW CERTIFICATE ↗</span>
+            </a>
+            <a className="certificate-node" href="/IMG_1082.JPG.jpeg" target="_blank" rel="noreferrer" aria-label="View Tally Prime with GST certificate">
+              <span className="certificate-node-title">Tally Prime + GST</span><span className="certificate-node-action">VIEW CERTIFICATE ↗</span>
+            </a>
+            <a className="certificate-node" href="/IMG_1083.JPG.jpeg" target="_blank" rel="noreferrer" aria-label="View Advanced Excel certificate">
+              <span className="certificate-node-title">Advanced Excel</span><span className="certificate-node-action">VIEW CERTIFICATE ↗</span>
+            </a>
+            <a className="certificate-node" href="/IMG_1084.JPG.jpeg" target="_blank" rel="noreferrer" aria-label="View GCC-TBC typing certificate">
+              <span className="certificate-node-title">English Typing · 30 WPM</span><span className="certificate-node-action">VIEW CERTIFICATE ↗</span>
+            </a>
+          </div>
           <ul className="credential-list">
             <li><a className="credential-link" href="/IMG_1068.JPG.jpeg" target="_blank" rel="noreferrer"><span>Certified Course in Professional Accountant · 6 months</span><small>SIIT, Global Infotech, Wai · Nov 2025 · View certificate ↗</small></a><b>97% · Grade A</b></li>
             <li><a className="credential-link" href="/IMG_1082.JPG.jpeg" target="_blank" rel="noreferrer"><span>Certificate Course in Tally Prime with GST · 2 months</span><small>SIIT, Global Infotech, Wai · Nov 2025 · View certificate ↗</small></a><b>Grade A</b></li>
