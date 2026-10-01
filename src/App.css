@@ -134,6 +134,39 @@ a {
   letter-spacing: 0.8px;
 }
 
+.header-cv {
+  display: inline-flex;
+  min-height: 30px;
+  align-items: center;
+  gap: 5px;
+  padding: 0 10px;
+  border: 1px solid rgba(103, 157, 184, 0.28);
+  border-radius: 999px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.78), rgba(220, 239, 247, 0.68));
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  color: #557d94;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.65px;
+  text-decoration: none;
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.header-cv:hover {
+  transform: translateY(-1px);
+  border-color: rgba(76, 150, 179, 0.55);
+  box-shadow: 0 5px 12px rgba(73, 128, 153, 0.14), inset 0 1px 0 rgba(255, 255, 255, 0.95);
+}
+
+.header-cv:focus-visible {
+  outline: 2px solid #65aac0;
+  outline-offset: 2px;
+}
+
+.header-cv span {
+  font-size: 11px;
+}
+
 .header-contact span {
   margin-left: 5px;
   color: #54acc8;
@@ -1316,6 +1349,8 @@ a {
   .availability { gap: 6px; padding: 7px 9px; font-size: 6px; letter-spacing: 0.25px; }
   .availability-dot { width: 6px; height: 6px; }
   .header-contact { font-size: 7px; letter-spacing: 0.35px; }
+  .header-cv { min-height: 26px; gap: 3px; padding: 0 7px; font-size: 6px; letter-spacing: 0.2px; }
+  .header-cv span { font-size: 9px; }
   .hero-panel { min-height: 555px; grid-template-columns: 1fr; align-content: start; padding: 28px 22px 15px; }
   .hero-copy { padding: 0; }
   .hero-copy .eyebrow { font-size: 7px; }

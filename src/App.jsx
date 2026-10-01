@@ -39,6 +39,7 @@ function App() {
           <span className="availability-dot" />
           OPEN TO OPPORTUNITIES
         </a>
+        <a className="header-cv" href="/Swarup_Namdev_Bandagale_CV.pdf" target="_blank" rel="noreferrer">MY CV <span>↗</span></a>
         <a className="header-contact" href="#contact">LET'S CONNECT <span>↗</span></a>
       </header>
 
