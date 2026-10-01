@@ -136,14 +136,14 @@ function App() {
         </article>
 
         <article className="detail-panel glass-panel tools-panel" id="certifications">
-          <p className="eyebrow"><span className="sparkle">✧</span> TOOLS & CREDENTIALS</p>
-          <h2>Practical tools.<br /><span>Verified skills.</span></h2>
+          <p className="eyebrow"><span className="sparkle">✧</span> PROFESSIONAL RECORDS</p>
+          <h2>CERTIFICATIONS</h2>
           <div className="tool-orbit"><span className="tool-node node-tally">Tally<br /><small>Prime</small></span><span className="tool-node node-excel">Excel</span><span className="tool-node node-gst">GST</span><span className="tool-core">FINANCE<br />OPS</span></div>
           <ul className="credential-list">
             <li><a className="credential-link" href="/IMG_1068.JPG.jpeg" target="_blank" rel="noreferrer"><span>Certified Course in Professional Accountant · 6 months</span><small>SIIT, Global Infotech, Wai · Nov 2025 · View certificate ↗</small></a><b>97% · Grade A</b></li>
-            <li><span>Tally Prime with GST<small>State Institute of Information Technology · Nov 2025</small></span><b>Grade A</b></li>
-            <li><span>Advanced Excel<small>State Institute of Information Technology · Nov 2025</small></span><b>Grade A</b></li>
-            <li><span>GCC-TBC English Typing · 30 WPM<small>Maharashtra State Council of Examination · Dec 2023</small></span><b>Grade B</b></li>
+            <li><span>Certificate Course in Tally Prime with GST<small>State Institute of Information Technology · Nov 2025</small></span><b>Grade A</b></li>
+            <li><span>Certificate Course in Advanced Excel<small>State Institute of Information Technology · Nov 2025</small></span><b>Grade A</b></li>
+            <li><span>GCC-TBC English Typing - 30 WPM<small>Maharashtra State Council of Examination · Dec 2023</small></span><b>Grade B</b></li>
           </ul>
         </article>
       </section>
