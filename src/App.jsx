@@ -141,9 +141,9 @@ function App() {
           <div className="tool-orbit"><span className="tool-node node-tally">Tally<br /><small>Prime</small></span><span className="tool-node node-excel">Excel</span><span className="tool-node node-gst">GST</span><span className="tool-core">FINANCE<br />OPS</span></div>
           <ul className="credential-list">
             <li><a className="credential-link" href="/IMG_1068.JPG.jpeg" target="_blank" rel="noreferrer"><span>Certified Course in Professional Accountant · 6 months</span><small>SIIT, Global Infotech, Wai · Nov 2025 · View certificate ↗</small></a><b>97% · Grade A</b></li>
-            <li><span>Certificate Course in Tally Prime with GST</span><b>Grade A</b></li>
-            <li><span>Certificate Course in Advance Excel</span><b>Grade A</b></li>
-            <li><span>GCC-TBC English Typing-30 WPM</span><b>Grade B</b></li>
+            <li><a className="credential-link" href="/IMG_1082.JPG.jpeg" target="_blank" rel="noreferrer"><span>Certificate Course in Tally Prime with GST · 2 months</span><small>SIIT, Global Infotech, Wai · Nov 2025 · View certificate ↗</small></a><b>Grade A</b></li>
+            <li><a className="credential-link" href="/IMG_1083.JPG.jpeg" target="_blank" rel="noreferrer"><span>Certificate Course in Advance Excel · 2 months</span><small>SIIT, Global Infotech, Wai · Nov 2025 · View certificate ↗</small></a><b>Grade A</b></li>
+            <li><a className="credential-link" href="/IMG_1084.JPG.jpeg" target="_blank" rel="noreferrer"><span>GCC-TBC English Typing-30 WPM · 6 months</span><small>Maharashtra State Council of Examination, Pune · View certificate ↗</small></a><b>Grade B</b></li>
           </ul>
         </article>
       </section>
