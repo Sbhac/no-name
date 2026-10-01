@@ -146,7 +146,11 @@ a {
   background: linear-gradient(138deg, rgba(255, 255, 255, 0.78), var(--panel) 43%, rgba(225, 241, 248, 0.56));
   box-shadow: 0 12px 32px rgba(80, 112, 137, 0.09), inset 0 1px 0 rgba(255, 255, 255, 0.96), inset 1px 0 0 rgba(255, 255, 255, 0.65), inset 0 -1px 0 rgba(108, 161, 186, 0.12);
   backdrop-filter: blur(24px) saturate(1.4);
-  animation: panel-in 650ms both;
+}
+
+.glass-panel.reveal-in,
+.glass-footer.reveal-in {
+  animation: panel-in 650ms cubic-bezier(0.2, 0.7, 0.2, 1) var(--reveal-delay, 0ms) both;
 }
 
 .hero-panel {
@@ -430,6 +434,11 @@ a {
   align-content: center;
   padding: 0 17px;
   border-right: 1px solid var(--line);
+  transition: transform 180ms ease;
+}
+
+.metric:hover {
+  transform: translateY(-2px);
 }
 
 .metric:first-child {
@@ -867,6 +876,11 @@ a {
   grid-template-columns: 25px 1fr;
   padding: 10px 0;
   border-top: 1px solid rgba(134, 159, 180, 0.16);
+  transition: transform 180ms ease;
+}
+
+.expertise-list > div:hover {
+  transform: translateX(3px);
 }
 
 .expertise-list > div > span {
@@ -893,6 +907,11 @@ a {
   position: relative;
   padding: 0 0 12px 13px;
   border-left: 1px solid rgba(100, 175, 196, 0.42);
+  transition: transform 180ms ease;
+}
+
+.education-entry:hover {
+  transform: translateX(3px);
 }
 
 .education-entry::before {
@@ -992,6 +1011,12 @@ a {
 .tool-node {
   min-width: 42px;
   min-height: 34px;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.tool-node:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 7px 15px rgba(77, 113, 136, 0.17);
 }
 
 .tool-node small {
@@ -1022,6 +1047,11 @@ a {
   color: #718498;
   font-size: 7px;
   line-height: 1.45;
+  transition: color 180ms ease;
+}
+
+.credential-list li:hover {
+  color: #3f788f;
 }
 
 .credential-list b {

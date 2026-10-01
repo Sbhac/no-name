@@ -1,7 +1,33 @@
+import { useEffect } from "react";
 import "./App.css";
 import profilePhoto from "./assets/profile.png";
 
 function App() {
+  useEffect(() => {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    const panels = document.querySelectorAll(".glass-panel, .glass-footer");
+    if (!("IntersectionObserver" in window)) {
+      panels.forEach((panel) => panel.classList.add("reveal-in"));
+      return;
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("reveal-in");
+        observer.unobserve(entry.target);
+      });
+    }, { threshold: 0.12, rootMargin: "0px 0px -24px 0px" });
+
+    panels.forEach((panel, index) => {
+      panel.style.setProperty("--reveal-delay", `${(index % 4) * 70}ms`);
+      observer.observe(panel);
+    });
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <main className="glass-portfolio" id="home">
       <header className="glass-header">
