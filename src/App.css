@@ -123,6 +123,7 @@ a {
   border-radius: 50%;
   background: #5bc2d4;
   box-shadow: 0 0 0 4px rgba(91, 194, 212, 0.12);
+  animation: status-pulse 2.8s ease-in-out infinite;
 }
 
 .header-contact,
@@ -304,17 +305,34 @@ a {
   border-radius: 46% 46% 18px 18px;
   background: linear-gradient(155deg, #dcecf4, #aecbd8);
   box-shadow: 0 16px 38px rgba(75, 111, 139, 0.18), inset 0 0 0 1px rgba(113, 153, 173, 0.2);
-  transform: rotate(2deg);
+  animation: portrait-float 8s ease-in-out infinite;
+}
+
+.portrait-frame::before {
+  position: absolute;
+  z-index: 2;
+  top: -25%;
+  bottom: -25%;
+  left: -45%;
+  width: 32%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.68), transparent);
+  content: '';
+  pointer-events: none;
+  transform: translateX(-180%) rotate(18deg);
+  animation: glass-sweep 9s ease-in-out infinite;
 }
 
 .portrait-frame::after {
   position: absolute;
+  z-index: 1;
   inset: 0;
   background: linear-gradient(145deg, rgba(226, 249, 255, 0.18), transparent 47%, rgba(101, 145, 166, 0.14));
   content: '';
 }
 
 .portrait-frame img {
+  position: relative;
+  z-index: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -1180,6 +1198,23 @@ a {
 @keyframes halo-breathe {
   0%, 100% { transform: scale(0.98); opacity: 0.72; }
   50% { transform: scale(1.03); opacity: 1; }
+}
+
+@keyframes portrait-float {
+  0%, 100% { transform: translateY(0) rotate(2deg); }
+  50% { transform: translateY(-6px) rotate(1deg); }
+}
+
+@keyframes glass-sweep {
+  0%, 24% { opacity: 0; transform: translateX(-180%) rotate(18deg); }
+  32% { opacity: 0.9; }
+  54% { opacity: 0; transform: translateX(530%) rotate(18deg); }
+  100% { opacity: 0; transform: translateX(530%) rotate(18deg); }
+}
+
+@keyframes status-pulse {
+  0%, 100% { box-shadow: 0 0 0 4px rgba(91, 194, 212, 0.12); }
+  50% { box-shadow: 0 0 0 7px rgba(91, 194, 212, 0.05), 0 0 12px rgba(91, 194, 212, 0.16); }
 }
 
 @media (max-width: 920px) {
