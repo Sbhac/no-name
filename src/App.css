@@ -163,14 +163,91 @@ a {
   outline-offset: 2px;
 }
 
-.header-cv span {
-  font-size: 11px;
+.header-contact > .icon-ring {
+  margin-left: 5px;
 }
 
-.header-contact span {
-  margin-left: 5px;
-  color: #54acc8;
-  font-size: 13px;
+.icon-ring {
+  position: relative;
+  display: inline-grid;
+  width: 21px;
+  height: 21px;
+  flex: 0 0 21px;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.88);
+  border-radius: 50%;
+  background: rgba(237, 248, 252, 0.78);
+  box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.95), 0 1px 5px rgba(43, 91, 122, 0.14);
+  color: #356e98;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.icon-ring::before {
+  position: absolute;
+  inset: -3px;
+  border-radius: inherit;
+  background: conic-gradient(from 15deg, transparent 0 8%, #49cef7 16%, #8d93ff 24%, #f9fdff 30%, #efd184 36%, #4acdf6 43%, transparent 53% 100%);
+  content: '';
+  filter: drop-shadow(0 0 2px rgba(75, 177, 231, 0.62));
+  mask: radial-gradient(farthest-side, transparent calc(100% - 2px), #000 calc(100% - 1px));
+  animation: icon-ring-spin 2.5s linear infinite;
+  pointer-events: none;
+}
+
+.icon-ring > span {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+  margin: 0;
+  color: inherit;
+  font-size: 10px;
+  line-height: 1;
+}
+
+.header-cv .icon-ring,
+.header-contact .icon-ring {
+  width: 14px;
+  height: 14px;
+  flex-basis: 14px;
+}
+
+.header-cv .icon-ring > span,
+.header-contact .icon-ring > span {
+  font-size: 8px;
+}
+
+.certificate-node-action .icon-ring {
+  width: 16px;
+  height: 16px;
+  flex-basis: 16px;
+  margin-left: 2px;
+}
+
+.certificate-node-action .icon-ring > span,
+.credential-link small .icon-ring > span {
+  font-size: 7px;
+}
+
+.credential-link small .icon-ring {
+  width: 14px;
+  height: 14px;
+  flex-basis: 14px;
+  margin-left: 1px;
+}
+
+.header-cv:hover .icon-ring::before,
+.header-contact:hover .icon-ring::before,
+.button-primary:hover .icon-ring::before,
+.button-secondary:hover .icon-ring::before,
+.round-link:hover .icon-ring::before,
+.study-card:hover .study-arrow .icon-ring::before,
+.certificate-node:hover .icon-ring::before,
+.credential-link:hover .icon-ring::before {
+  animation-duration: 1.1s;
 }
 
 .glass-panel {
@@ -314,11 +391,6 @@ a {
 .button-secondary:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 18px rgba(80, 133, 167, 0.2);
-}
-
-.button-primary span,
-.button-secondary span {
-  font-size: 12px;
 }
 
 .location-note {
@@ -661,6 +733,12 @@ a {
 .study-arrow {
   color: #68a9bf;
   font-size: 16px;
+}
+
+.study-arrow .icon-ring {
+  width: 24px;
+  height: 24px;
+  flex-basis: 24px;
 }
 
 .tag {
@@ -1185,6 +1263,10 @@ a {
   50% { background-position: 100% 50%; }
 }
 
+@keyframes icon-ring-spin {
+  to { transform: rotate(1turn); }
+}
+
 @keyframes halo-breathe {
   0%, 100% { transform: scale(0.98); opacity: 0.72; }
   50% { transform: scale(1.03); opacity: 1; }
@@ -1228,7 +1310,6 @@ a {
   .availability-dot { width: 6px; height: 6px; }
   .header-contact { font-size: 7px; letter-spacing: 0.35px; }
   .header-cv { min-height: 26px; gap: 3px; padding: 0 7px; font-size: 6px; letter-spacing: 0.2px; }
-  .header-cv span { font-size: 9px; }
   .hero-panel { min-height: 555px; grid-template-columns: 1fr; align-content: start; padding: 28px 22px 15px; }
   .hero-copy { padding: 0; }
   .hero-copy .eyebrow { font-size: 7px; }

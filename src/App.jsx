@@ -39,8 +39,8 @@ function App() {
           <span className="availability-dot" />
           OPEN TO OPPORTUNITIES
         </a>
-        <a className="header-cv" href="/Swarup_Namdev_Bandagale_CV.pdf" target="_blank" rel="noreferrer">MY CV <span>↗</span></a>
-        <a className="header-contact" href="#contact">LET'S CONNECT <span>↗</span></a>
+        <a className="header-cv" href="/Swarup_Namdev_Bandagale_CV.pdf" target="_blank" rel="noreferrer">MY CV <span className="icon-ring" aria-hidden="true"><span>↗</span></span></a>
+        <a className="header-contact" href="#contact">LET'S CONNECT <span className="icon-ring" aria-hidden="true"><span>↗</span></span></a>
       </header>
 
       <section className="hero-panel glass-panel">
@@ -53,8 +53,8 @@ function App() {
             Financial Management, First Class.
           </p>
           <div className="hero-actions">
-            <a className="button-primary" href="#projects">VIEW MY WORK <span>↓</span></a>
-            <a className="button-secondary" href="mailto:swarupbandagale6@email.com">EMAIL ME <span>↗</span></a>
+            <a className="button-primary" href="#projects">VIEW MY WORK <span className="icon-ring" aria-hidden="true"><span>↓</span></span></a>
+            <a className="button-secondary" href="mailto:swarupbandagale6@email.com">EMAIL ME <span className="icon-ring" aria-hidden="true"><span>↗</span></span></a>
           </div>
           <p className="location-note"><span>⌖</span> WAI, SATARA · MAHARASHTRA, INDIA</p>
         </div>
@@ -81,17 +81,17 @@ function App() {
       <section className="work-panel glass-panel" id="projects">
         <div className="section-heading">
           <div><p className="eyebrow"><span className="sparkle">✧</span> SELECTED ACADEMIC WORK</p><h2>Research & <span>Field Studies</span></h2></div>
-          <a className="round-link" href="#contact" aria-label="Contact about projects">↘</a>
+          <a className="round-link" href="#contact" aria-label="Contact about projects"><span className="icon-ring" aria-hidden="true"><span>↘</span></span></a>
         </div>
         <div className="project-grid">
           <a className="study-card study-risk" href="/swarup%20research%20project.pdf" target="_blank" rel="noreferrer">
             <div className="study-art"><img className="study-preview" src="/research-project-cover.png" alt="First page of the financial risk tolerance research project PDF" /><span className="study-number">01</span></div>
-            <div className="study-info"><div><h3>Financial Risk & Investment Decisions</h3><p>Questionnaire-based study of investor risk appetite across FDs, SIPs, and equity, using Cronbach's Alpha, ANOVA, regression, and chi-square analysis.</p></div><span className="study-arrow">↗</span></div>
+            <div className="study-info"><div><h3>Financial Risk & Investment Decisions</h3><p>Questionnaire-based study of investor risk appetite across FDs, SIPs, and equity, using Cronbach's Alpha, ANOVA, regression, and chi-square analysis.</p></div><span className="study-arrow"><span className="icon-ring" aria-hidden="true"><span>↗</span></span></span></div>
             <span className="tag">MBA RESEARCH</span>
           </a>
           <a className="study-card study-bank" href="/swarup%20OJT%20project.pdf" target="_blank" rel="noreferrer">
             <div className="study-art"><img className="study-preview" src="/ojt-project-cover.png" alt="First page of the loans and advances OJT project PDF" /><span className="study-number">02</span></div>
-            <div className="study-info"><div><h3>Loans & Advances</h3><p>Reviewed loan portfolio, sanctioning, documentation, credit appraisal, lending trends, and NPA management at Wai Urban Co-operative Bank.</p></div><span className="study-arrow">↗</span></div>
+            <div className="study-info"><div><h3>Loans & Advances</h3><p>Reviewed loan portfolio, sanctioning, documentation, credit appraisal, lending trends, and NPA management at Wai Urban Co-operative Bank.</p></div><span className="study-arrow"><span className="icon-ring" aria-hidden="true"><span>↗</span></span></span></div>
             <span className="tag">OJT STUDY</span>
           </a>
         </div>
@@ -141,34 +141,34 @@ function App() {
           <h2>CERTIFICATIONS</h2>
           <div className="certificate-diagram" aria-label="Certificate diagram">
             <a className="certificate-node" href="/IMG_1068.JPG.jpeg" target="_blank" rel="noreferrer" aria-label="View Professional Accountant certificate">
-              <span className="certificate-node-title">Professional Accountant</span><span className="certificate-node-action">VIEW CERTIFICATE ↗</span>
+              <span className="certificate-node-title">Professional Accountant</span><span className="certificate-node-action">VIEW CERTIFICATE <span className="icon-ring" aria-hidden="true"><span>↗</span></span></span>
             </a>
             <a className="certificate-node" href="/IMG_1082.JPG.jpeg" target="_blank" rel="noreferrer" aria-label="View Tally Prime with GST certificate">
-              <span className="certificate-node-title">Tally Prime + GST</span><span className="certificate-node-action">VIEW CERTIFICATE ↗</span>
+              <span className="certificate-node-title">Tally Prime + GST</span><span className="certificate-node-action">VIEW CERTIFICATE <span className="icon-ring" aria-hidden="true"><span>↗</span></span></span>
             </a>
             <a className="certificate-node" href="/IMG_1083.JPG.jpeg" target="_blank" rel="noreferrer" aria-label="View Advanced Excel certificate">
-              <span className="certificate-node-title">Advanced Excel</span><span className="certificate-node-action">VIEW CERTIFICATE ↗</span>
+              <span className="certificate-node-title">Advanced Excel</span><span className="certificate-node-action">VIEW CERTIFICATE <span className="icon-ring" aria-hidden="true"><span>↗</span></span></span>
             </a>
             <a className="certificate-node" href="/IMG_1084.JPG.jpeg" target="_blank" rel="noreferrer" aria-label="View GCC-TBC typing certificate">
-              <span className="certificate-node-title">English Typing · 30 WPM</span><span className="certificate-node-action">VIEW CERTIFICATE ↗</span>
+              <span className="certificate-node-title">English Typing · 30 WPM</span><span className="certificate-node-action">VIEW CERTIFICATE <span className="icon-ring" aria-hidden="true"><span>↗</span></span></span>
             </a>
           </div>
           <ul className="credential-list">
-            <li><a className="credential-link" href="/IMG_1068.JPG.jpeg" target="_blank" rel="noreferrer"><span>Certified Course in Professional Accountant · 6 months</span><small>SIIT, Global Infotech, Wai · Nov 2025 · View certificate ↗</small></a><b>97% · Grade A</b></li>
-            <li><a className="credential-link" href="/IMG_1082.JPG.jpeg" target="_blank" rel="noreferrer"><span>Certificate Course in Tally Prime with GST · 2 months</span><small>SIIT, Global Infotech, Wai · Nov 2025 · View certificate ↗</small></a><b>Grade A</b></li>
-            <li><a className="credential-link" href="/IMG_1083.JPG.jpeg" target="_blank" rel="noreferrer"><span>Certificate Course in Advance Excel · 2 months</span><small>SIIT, Global Infotech, Wai · Nov 2025 · View certificate ↗</small></a><b>Grade A</b></li>
-            <li><a className="credential-link" href="/IMG_1084.JPG.jpeg" target="_blank" rel="noreferrer"><span>GCC-TBC English Typing-30 WPM · 6 months</span><small>Maharashtra State Council of Examination, Pune · View certificate ↗</small></a><b>Grade B</b></li>
+            <li><a className="credential-link" href="/IMG_1068.JPG.jpeg" target="_blank" rel="noreferrer"><span>Certified Course in Professional Accountant · 6 months</span><small>SIIT, Global Infotech, Wai · Nov 2025 · View certificate <span className="icon-ring" aria-hidden="true"><span>↗</span></span></small></a><b>97% · Grade A</b></li>
+            <li><a className="credential-link" href="/IMG_1082.JPG.jpeg" target="_blank" rel="noreferrer"><span>Certificate Course in Tally Prime with GST · 2 months</span><small>SIIT, Global Infotech, Wai · Nov 2025 · View certificate <span className="icon-ring" aria-hidden="true"><span>↗</span></span></small></a><b>Grade A</b></li>
+            <li><a className="credential-link" href="/IMG_1083.JPG.jpeg" target="_blank" rel="noreferrer"><span>Certificate Course in Advance Excel · 2 months</span><small>SIIT, Global Infotech, Wai · Nov 2025 · View certificate <span className="icon-ring" aria-hidden="true"><span>↗</span></span></small></a><b>Grade A</b></li>
+            <li><a className="credential-link" href="/IMG_1084.JPG.jpeg" target="_blank" rel="noreferrer"><span>GCC-TBC English Typing-30 WPM · 6 months</span><small>Maharashtra State Council of Examination, Pune · View certificate <span className="icon-ring" aria-hidden="true"><span>↗</span></span></small></a><b>Grade B</b></li>
           </ul>
         </article>
       </section>
 
       <section className="contact-panel glass-panel" id="contact">
-        <div className="contact-intro"><p className="eyebrow">A GOOD PLACE TO START</p><h2>Let’s make<br /><span>work matter.</span></h2><p>Have an opportunity or a finance role in mind? I’d be glad to connect.</p><div className="contact-actions"><a className="button-primary" href="mailto:swarupbandagale6@email.com">EMAIL ME <span>↗</span></a><a className="button-secondary" href="https://linkedin.com/in/swarupbandagale-264a18190" target="_blank" rel="noreferrer">LINKEDIN <span>↗</span></a></div></div>
+        <div className="contact-intro"><p className="eyebrow">A GOOD PLACE TO START</p><h2>Let’s make<br /><span>work matter.</span></h2><p>Have an opportunity or a finance role in mind? I’d be glad to connect.</p><div className="contact-actions"><a className="button-primary" href="mailto:swarupbandagale6@email.com">EMAIL ME <span className="icon-ring" aria-hidden="true"><span>↗</span></span></a><a className="button-secondary" href="https://linkedin.com/in/swarupbandagale-264a18190" target="_blank" rel="noreferrer">LINKEDIN <span className="icon-ring" aria-hidden="true"><span>↗</span></span></a></div></div>
         <div className="contact-details"><p className="eyebrow">CONTACT DETAILS</p><a href="mailto:swarupbandagale6@email.com"><span>✉</span> swarupbandagale6@email.com</a><a href="tel:+917798208652"><span>⌕</span> +91 77982 08652</a><a href="https://linkedin.com/in/swarupbandagale-264a18190" target="_blank" rel="noreferrer"><span>↗</span> linkedin.com/in/swarupbandagale-264a18190</a><p className="contact-location">⌖ &nbsp; Wai, Dist. Satara, Maharashtra, India</p><p className="language-line">LANGUAGES <b>English · Hindi · Marathi</b></p></div>
         <div className="contact-glass-art" aria-hidden="true"><div className="glass-orb"><span>SB</span></div><p>ACCURACY<br />IN EVERY DETAIL</p></div>
       </section>
 
-      <footer className="glass-footer"><a className="brand" href="#home"><span className="brand-mark">SB</span><span>SWARUP NAMDEV BANDAGALE</span></a><span>© 2026 SWARUP NAMDEV BANDAGALE</span><a href="#home">BACK TO TOP ↑</a></footer>
+      <footer className="glass-footer"><a className="brand" href="#home"><span className="brand-mark">SB</span><span>SWARUP NAMDEV BANDAGALE</span></a><span>© 2026 SWARUP NAMDEV BANDAGALE</span><a href="#home">BACK TO TOP <span className="icon-ring" aria-hidden="true"><span>↑</span></span></a></footer>
     </main>
   );
 }
